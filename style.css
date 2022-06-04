@@ -1,0 +1,142 @@
+.flex-container {
+    background:lightgreen;
+    padding:16px;
+    border:4px solid green;
+    gap:8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container div {
+   /*background: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    flex: 1;*/
+  }
+  .one{
+    background:lightblue;
+    padding:16px;
+    border:4px solid blue;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .oneone{
+   background: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    width: 550px;
+    flex: 1;*/
+    padding:16px;
+  }
+  .onetwo{
+   background: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    width: 213px;
+    flex: 1;*/
+    padding:16px;
+    gap: 2px;
+    display: flex;
+  }
+  
+  .onetwoone{
+   background: pink;
+    border: 4px solid red;
+    height: 30px;
+    width: 110px;
+    flex: 1;*/
+    padding:16px;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .onetwotwo{
+   background: pink;
+    border: 4px solid red;
+    height: 30px;
+    width: 110px;
+    flex: 1;*/
+    padding:16px;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .onethree{
+   background: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    width: 400px;
+    flex: 1;*/
+    padding:16px;
+  }
+  
+  .twot{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    flex:1;
+  }
+
+  .two{
+  
+    background:rgb(228, 171, 154);
+    padding:16px;
+    border:4px solid rgb(145, 41, 10);
+    gap:24px;
+    flex-grow: 1;
+    
+    
+  }
+  .three{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    flex-grow:1;
+    
+  }
+  .threeone{
+    display: flex;
+    background:rgb(228, 171, 154);
+    padding:16px;
+    border:4px solid rgb(145, 41, 10);
+    gap:24px;
+    height: 72px;    
+    
+  }
+
+  .threetwo { 
+    display: flex;
+    background:rgb(228, 171, 154);
+    padding:16px;
+    border:4px solid rgb(145, 41, 10);
+    gap:24px;
+    height: 72px;    
+  
+  }
+  .five {
+    background:lightblue;
+    padding:16px;
+    border:4px solid blue;
+    gap:24px;
+    display: flex;
+    justify-content: center;
+    flex:1;}
+
+    .fiveone,.fivefour {
+      background:rgb(173, 179, 230);
+      border:4px solid rgb(75, 75, 185);
+      gap:24px;
+      display: flex;
+      height:48px;
+    flex-grow: 1;}
+
+      .fivetwo,.fivethree {
+        background: peachpuff;
+        border: 4px solid salmon;
+        gap:24px;
+        display: flex;
+        height:48px;
+      flex-grow: 0.5;}
